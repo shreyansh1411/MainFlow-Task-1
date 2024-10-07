@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.main {
+  background-image: url("../Images/home.png");
+  height: 730px;
+  position: r;
+}
+.header {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.logo {
+  padding-top: 45px;
+}
+.menubar ul {
+  padding-top: 50px;
+}
+.menubar li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 30px;
+  font-size: 18px;
+}
+.menubar li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Barlow", sans-serif;
+}
+li a.active {
+  color: #f57c48;
+}
+.menubar a:hover {
+  color: #f57c48;
+}
+.heading {
+  background-image: url("../Images/home1.png");
+  height: 600px;
+  width: 90%;
+  position: absolute;
+  left: 80px;
+}
+.heading h1 {
+  font-size: 80px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 170px;
+  font-family: "Raleway", sans-serif;
+}
+.heading p {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Raleway", sans-serif;
+}
+.button1 {
+  border-radius: 40px;
+  padding: 15px 30px;
+  background: linear-gradient(42deg, #7436bb 0.01%, #b520a3 100%);
+  border-color: #d12bec;
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+.button2 {
+  border-radius: 40px;
+  padding: 15px 30px;
+  background: transparent;
+  border-color: #d12bec;
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
